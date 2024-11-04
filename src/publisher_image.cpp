@@ -6,7 +6,7 @@
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/highgui/highgui.hpp"
 
-static const std::string IMAGE_PATH = "../img/images.jpeg";
+static const std::string IMAGE_PATH = "/home/ros/catkin_ws/src/ikuzo/img/images.jpeg";
 using namespace std;
 int publishImage (string filepath) {
     cv::Mat image;
